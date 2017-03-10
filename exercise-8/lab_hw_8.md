@@ -340,5 +340,4 @@
     p4 <- p3 + scale_x_continuous(name = "Corruption Perceptions Index, 2011 (10=least corrupt)") + scale_y_continuous(name = "Human Development Index, 2011 (1=Best)") + scale_colour_manual(name = "", labels = c("OECD", "Americas", "Asia &\nOceania", "Central &\nEastern Europe", "Middle East &\nNorth Africa", "Sub-Saharan\nAfrica"), values = c("darkblue", "blue", "lightblue", "green", "orange", "brown")) + ggtitle("Corruption and Human development")
     p4 + theme_minimal() + theme(legend.position = c("top"), legend.direction = "horizontal", axis.title.x = element_text(face = "italic"), axis.title.y = element_text(face = "italic")) #changed the position of the legend and italicized the axis titles
 
-![](lab_hw_8_files/figure-markdown_strict/unnamed-chunk-6-12.png) \#push
-that directory in figures so that the figures
+![](lab_hw_8_files/figure-markdown_strict/unnamed-chunk-6-12.png)
