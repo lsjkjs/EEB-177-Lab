@@ -207,4 +207,3 @@ p4 <- p3 + scale_x_continuous(name = "Corruption Perceptions Index, 2011 (10=lea
 p4 + theme_minimal() + theme(legend.position = c("top"), legend.direction = "horizontal", axis.title.x = element_text(face = "italic"), axis.title.y = element_text(face = "italic")) #changed the position of the legend and italicized the axis titles
 
 ```
-#push that directory in figures so that the figures 
